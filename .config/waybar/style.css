@@ -1,0 +1,158 @@
+* {
+    border: none;
+    font-family: "SF Pro Display", "GeistMono Nerd Font", "FiraCode Nerd Font";
+    font-size: 14px;
+
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+tooltip {
+  background: rgba(4, 4, 4, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+    transition: all 150ms ease-in-out;
+}
+
+#workspaces button {
+    transition: all 150ms ease-in-out;
+    padding: 4px 6px;
+    min-width: 24px;
+    background:alpha(#121212, 0.4);
+    color: white;
+    border: 1px solid #434343;
+    border-radius: 999px;
+    margin: 0 3px;
+}
+
+#workspaces button.active {
+    border: 1px solid aliceblue;
+    background-color:aliceblue;
+    color:#121212;
+    transition: all 150ms ease-in-out;
+    min-width: 44px;
+    border-radius: 999px;
+}
+
+#clock {
+    font-weight: 800;
+    background:alpha(#121212, 0.4);
+    border-radius: 999px;
+    padding: 5px 14px;
+}
+
+#pulseaudio {
+    font-weight: 800;
+    background:alpha(#121212, 0.4);
+    border-radius: 999px;
+    padding: 5px 14px;
+}
+
+#tray {
+    font-weight: 800;
+    background:alpha(#121212, 0.4);
+    border-radius: 999px;
+    padding: 5px 14px;
+    margin: 0 3px;
+}
+
+#custom-media {
+    margin: 0 3px;
+    padding: 5px 16px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.3);
+    color: aliceblue; /* aliceblue */
+    font-weight: bold;
+}
+
+#cava {
+    margin: 0 3px;
+    padding: 5px 14px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+#network {
+    font-weight: 800;
+    background:alpha(#121212, 0.4);
+    border-radius: 999px;
+    padding: 5px 14px;
+    margin: 0 3px;
+}
+
+#pulseaudio-slider {
+    background: alpha(#121212, 0.4);
+    border-radius: 999px;
+    padding: 0 14px;
+    margin: 0 3px;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+    min-height: 10px;
+    min-width: 80px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#pulseaudio-slider highlight {
+    min-height: 10px;
+    border-radius: 999px;
+    background: aliceblue;
+}
+
+#pulseaudio-slider.muted highlight {
+    background-color: orange;
+}
+
+#mpris {
+    margin: 0 3px;
+    padding: 5px 16px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.3);
+    color: aliceblue; /* aliceblue */
+    font-weight: bold;
+}
+
+#custom-power {
+    font-weight: 800;
+    background: alpha(#121212, 0.4);
+    border-radius: 999px;
+    padding: 5px 14px;
+    margin: 0 3px;
+}
+
+menu {
+    border-radius: 15px;
+    background: #161320;
+    color: aliceblue;
+}
+
+menuitem {
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+
+menuitem:hover {
+    background: alpha(aliceblue, 0.15);
+}
